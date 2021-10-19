@@ -5,8 +5,8 @@ class CalculateWageTillCondition {
 	public static final int is_Part_Time = 1;
 	public static final int is_Full_Time = 2;
 	public static final int emp_Rate_Per_Hour = 20;
-	public static final int num_Of_Working_Days = 2;
-	public static final int max_Hour_In_Month = 10;
+	public static final int num_Of_Working_Days = 20;
+	public static final int max_Hour_In_Month = 100;
 
 	public void calculateWage() {
 		int empHrs = 0, totalEmpHrs = 0, totalWorkingDays = 0;
